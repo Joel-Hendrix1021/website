@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.0.3",
@@ -35,7 +36,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "next lint --cache --cache-location node_modules/.cache/ --fix",
-    "*.css": "stylelint --cache --cache-location node_modules/.cache --fix",
-    "*.{js,jsx,ts,tsx,css,md}": "prettier --write"
+    "*.css": "stylelint --fix",
+    "*.{js,jsx,ts,tsx,css,md}": "prettier --write",
+    "*.js": "eslint --cache --fix"
   }
 }
