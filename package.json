@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.0.3",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@types/react": "17.0.34",
+    "eslint": "<8.0.0",
+    "eslint-config-next": "12.0.3",
     "typescript": "4.4.4"
   }
 }
