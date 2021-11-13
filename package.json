@@ -49,7 +49,7 @@
     ]
   },
   "lint-staged": {
-    "*.{ts,tsx}": "next lint --cache --cache-location node_modules/.cache/ --fix",
+    "*.{ts,tsx}": "next lint --cache --cache-location node_modules/.cache/ --fix .",
     "*.css": "stylelint --fix",
     "*.{ts,tsx,css,md}": "prettier --write"
   }
