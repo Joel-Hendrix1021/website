@@ -1,3 +1,10 @@
-export function Button(): JSX.Element {
-  return <button>Click me!</button>;
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/css";
+
+export function Button() {
+  return (
+    <button className={css({ backgroundColor: "black", color: "white" })}>
+      Click me!
+    </button>
+  );
 }
