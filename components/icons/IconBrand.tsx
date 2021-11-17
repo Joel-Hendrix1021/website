@@ -3,6 +3,7 @@ import * as React from "react";
 function IconBrand(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      viewBox="0 0 24 24"
       width={13}
       height={16}
       fill="none"

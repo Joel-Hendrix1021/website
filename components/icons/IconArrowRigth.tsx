@@ -3,6 +3,7 @@ import * as React from "react";
 function IconArrowRigth(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      viewBox="0 0 24 24"
       width={11}
       height={17}
       fill="none"

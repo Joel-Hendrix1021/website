@@ -3,6 +3,7 @@ import * as React from "react";
 function IconVisibilityOf(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      viewBox="0 0 24 24"
       width={20}
       height={21}
       fill="none"

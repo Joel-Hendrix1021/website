@@ -3,6 +3,7 @@ import * as React from "react";
 function IconLogout(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      viewBox="0 0 24 24"
       width={17}
       height={17}
       fill="none"

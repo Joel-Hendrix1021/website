@@ -1,4 +1,5 @@
 import { Button } from "components/button";
+import IconSettings from "components/icons/IconSettings";
 
 export function getStaticProps() {
   return {
@@ -13,6 +14,8 @@ export default function Components(): JSX.Element {
     <div>
       <pre>props: {}</pre>
       <Button />
+      <br />
+      <IconSettings width={30} height={30} />
     </div>
   );
 }
