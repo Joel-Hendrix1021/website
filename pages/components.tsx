@@ -14,7 +14,10 @@ export default function Components(): JSX.Element {
     <div>
       <pre>props: {}</pre>
       <Button />
-      <Input borderColor="#CDD5F0" />
+      <Input label={"Label"} />
+      <Input type={"email"} />
     </div>
   );
 }
+
+//event: actived, error, focused inactive o default

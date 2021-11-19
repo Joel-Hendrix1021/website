@@ -15,6 +15,8 @@ export const InputContainer = styled.div<InputProps>`
   height: 40px;
   background: #ffffff;
   border: 2px solid ${(props) => props.borderColor || "#CDD5F0"};
+  opacity: 1;
+  transition: border 0.3s ease-in-out;
   border-radius: 100px;
 `;
 
