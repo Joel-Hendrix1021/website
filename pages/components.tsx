@@ -1,3 +1,4 @@
+import AllianceCard from "components/AllianceCard/AllianceCard";
 import { Button } from "components/button";
 
 export function getStaticProps() {
@@ -13,6 +14,7 @@ export default function Components(): JSX.Element {
     <div>
       <pre>props: {}</pre>
       <Button />
+      <AllianceCard />
     </div>
   );
 }
