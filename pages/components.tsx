@@ -1,4 +1,5 @@
 import { Button } from "components/button";
+import TeamCard from "components/TeamCard/TeamCard";
 
 export function getStaticProps() {
   return {
@@ -13,6 +14,11 @@ export default function Components(): JSX.Element {
     <div>
       <pre>props: {}</pre>
       <Button />
+      <TeamCard
+        name="Jhon Doe"
+        subName="Founder"
+        src="https://imgur.com/Uk4XFuO.png"
+      />
     </div>
   );
 }
